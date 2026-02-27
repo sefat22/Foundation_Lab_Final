@@ -69,11 +69,18 @@ As noted by Smith (2023), physical or logical isolation is the strongest control
 ---
 
 ## Technical Environment Specifications
-* **Operating System:** macOS [Your Version, e.g., Sequoia 15.3.1] (Apple Silicon M2)
+* **Operating System:** macOS [Sequoia 15.3.1] (Apple Silicon M2)
 * **Version Control:** Git v2.48.x (Homebrew Bin)
 * **IDE:** Visual Studio Code v1.9x
-* **Repository Type:** Private GitHub Remote
+* **Repository Type:** GitHub Remote
+* **Hypervisor:** UTM v4.5.x (QEMU-based virtualization for Apple Silicon)
+* **Guest Operating System:** Ubuntu 22.04.x LTS (ARM64 Architecture)
+* **Network Simulator:** Cisco Packet Tracer v8.2.x
+* **Remote Access:** OpenSSH (Secure Shell) via VS Code Remote-SSH Extension
+* **Scripting Language:** Bash (Bourne Again SHell)
 
 ## Project Deliverables
 1. **Local Initialization:** Established a local Git repository with a custom `.zshrc` PATH configuration to prioritize Homebrew binaries.
 2. **Version Control Handshake:** Successfully synchronized local commits to the remote `Foundations_Lab_Final` repository.
+3. **Hypervisor & Linux VM**:Host OS - MacBook Air M2 running Type 2 Hypervisor (Virtual Machine) - UTM with Linux VM active.
+4. **Packet Tracer Connectivity:** A successful connectivity simulation in Cisco Packet Tracer .
